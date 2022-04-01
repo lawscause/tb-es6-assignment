@@ -3,30 +3,32 @@
 
 1. Create an Employee class.
 An employee should have
+
 ** name
+
 ** Id number
+
 ** List of permissions that they can perform on the company website
+
 ** Store number for the store where they work
-class Employee {
- constructor(name, idNumber, permissions, storeNumber) {
-   this.name = name;
-   this.idNumber = idNumber;
-   this.permissions = permissions;
-   this.storeNumber = storeNumber;
-   this.employeeType = "Employee";
-   this.permissions);
- }
-}
 
 
 2. Create a Manager class.
+
 ** A manager is a type of employee.
+
 ** A manager should should have
+
 *** name
+
 *** Id number
+
 *** List of permissions that they can perform on the company website
+
 *** Store number for the store where they work
+
 *** List of employees they manage
+
 *** The ability to change the permissions an employee that they manage has on the website.
 
 **Any methods created for the classes above need NOT operate fully but MUST be formatted correctly and require appropriate parameters.
